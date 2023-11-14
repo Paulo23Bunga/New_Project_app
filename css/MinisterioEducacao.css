@@ -1,0 +1,321 @@
+#principal {
+    background: black;
+    border: 1px solid black;
+    width: 101%;
+    height: 50px;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    
+    color: white;
+}
+#principal1 {
+    background: black;
+    border: 1px solid black;
+    width: 101%;
+    height: 75px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    
+    color: white;
+}
+
+#formSlide {
+    border: 1px solid black;
+    width: 800px;
+    height: 430px;
+    margin-left: 660px;
+    margin-top: -390px;
+}
+
+ #bd{
+    background-image: url(../imagem/fundo.png);
+    background-size: 97%;
+    background-position: center;
+    background-position-y: 100px;
+    font-size: 20px;
+    
+}
+
+
+h1.pri{
+    margin-top: 4px;
+    text-align: center;
+}
+
+h1.secu{
+    margin-top: -65px;
+    text-align: center;
+}
+
+h2.secu1{
+    margin-top:-10px;
+    text-align: center;
+}
+
+.pub{
+    margin-left:100px;
+}
+.priva{
+    margin-left:1050px;
+    margin-top:-40px;
+}
+.priva1{
+    margin-left:1250px;
+    margin-top:-40px;
+}
+
+#nome {
+    margin-left: 12px;
+    
+}
+
+#senha {
+    margin-left: 92px;
+
+}
+
+#email {
+    margin-left: 92px;
+    
+}
+
+body {
+    margin: 1% 2% 1% 2%;
+}
+
+#logo {
+    width: 150px;
+    margin-left: 50%;
+}
+
+#contacto {
+    margin-left: 68px;
+    text-align: center;
+}
+
+#data {
+    margin-left: 13px;
+}
+
+body {
+    background-image: url(../imagem/ed2.png);
+    background-repeat: no-repeat;
+    background-size: 33%;
+    background-position: center;
+    margin-top: 5%;
+    background-position-y: 95px;
+    background-color: #cdf4f9;
+    background-position-x: 100px;
+}
+
+body.body2 {
+    background-image: none;
+}
+
+input {
+    width: 400px;
+    height: 30px;
+    border-radius: 6px;
+    border-color: #4cecff;
+    text-align: center;
+}
+
+select {
+    width: 200px;
+    height: 30px;
+    border-radius: 6px;
+    border-color: #4cecff;
+    cursor: pointer;
+}
+
+#botao {
+    width: 10%;
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+    cursor: pointer;
+}
+
+label {
+    font-size: 17px;
+}
+
+legend {
+    font-size: 20px;
+}
+
+fieldset#usuario {
+    padding-top: 5%;
+    width: 1510px;
+}
+
+fieldset#ensino {
+    padding-top: 13px;
+    margin-top: 4px;
+    width: 1510px;
+}
+
+#form2 {
+    margin-left: 2%;
+  
+    background: white;
+    border: 1px solid black;
+    width: 96%;
+    height: 65%;
+    
+}
+
+.linkEstatistica {
+    float: right;
+    margin-right: 3px;
+    width: 15%;
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    border: 1px solid #4cecff;
+    height: 25px;
+    border-radius: 7px;
+    padding-top: 6px;
+}
+
+img.icoBack {
+    width: 3%;
+    height: 3%;
+    margin-top: -200%;
+    margin-bottom: 2%;
+    border-radius: 50px;
+    background: #37a5e5;
+}
+
+.linkBack {
+    margin-left: -1.5%;
+}
+
+.icoBack:hover {
+    background: #1070a8;
+}
+
+.imgNext {
+    width: 80px;
+    height: 300px;
+    margin-top: -1000px;
+}
+
+.imgNext1 {
+    width: 80px;
+    height: 250px;
+    margin-left: 2px;
+}
+
+.linkNext {
+    margin-left: 1420px;
+}
+
+
+
+.imgPrev {
+    width: 80px;
+    height: 300px;
+    margin-top: -1000px;
+}
+
+.imgPrev1 {
+    width: 80px;
+    height: 250px;
+    margin-left: 0px;
+    
+}
+
+
+.linkPrev {
+    margin-left: 550px;
+}
+
+
+img.imgSlide {
+    width: 800px;
+    height: 430px;
+    margin-left: 625px;
+    margin-top: -1200px;
+    border-radius: 5px;
+    border-top: 1px solid black;
+    border-bottom: none;
+}
+
+.nEscola {
+    background: black;
+    color:white;
+    margin-left: 625px;
+    opacity: 0.6;
+    text-align: center;
+    margin-top: -70px;
+    width: 800px;
+}
+
+.linkLuanda{
+    margin-left: 1%;
+    font-size: 15px;
+    margin-right: 65px;
+   
+
+}
+a {
+    text-decoration: none;
+
+}
+iframe{
+    margin-left: 75%;
+    width: 25%;
+    height: 300px;
+    margin-top:-55px;
+    margin-bottom: -100px;
+}
+.muni{
+    margin-top:-200px;
+    margin-left:75%;
+    text-align: center;
+    
+}
+.infTipo{
+    text-align: center;
+    margin-top:5px;
+}
+
+#totalEsc{
+    margin-left:850px;
+    margin-bottom: -20px;
+    margin-top:-10px;
+}
+.imgEsc{
+    width:600px;
+    height: 400px;
+    border-top: 1px solid black;
+    border-radius: 5px;
+    border-bottom: none;
+   
+    margin-left: 0px;
+   
+}
+.data{
+    background:black;
+    color:lime;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    border-bottom: none;
+    margin-top:-600px;
+    margin-left: 500px;
+    
+}
+
+.data1{
+    background:black;
+    color:lime;
+    width: 210px;
+    text-align: center;
+    margin-top:-24px;
+    margin-left: 500px;
+}

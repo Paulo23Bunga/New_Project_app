@@ -1,0 +1,851 @@
+
+* { margin:0; padding:0;}
+p{color: #111111;}
+@media all{
+body{background: #f1f0f0; padding:1%;}
+}
+
+div#topo {background:hsl(172, 63%, 35%);  height:110px;  background-size: 100% 500px;}
+           
+div#rodape {
+background: hsl(172, 63%, 35%);  
+height:52px; 
+clear:both; 
+border-top: 3px solid black;
+margin-top:213px;
+margin-bottom: -130px;
+
+
+
+}
+input{
+    border: 0;
+}
+.imgQuadro{
+    width: 500px;
+    height: 640px;
+    margin-top:-1500px;
+    margin-left:1060px;
+    opacity: 0.3;
+    
+}
+
+    
+div#conteudo .img1{
+    width: 5%; 
+    margin-left: 2%;
+    margin-top:5px;
+    
+     
+}
+div#conteudo{
+    margin-top:78px;
+    border-top: 2px solid black;
+    
+    height: 500px;
+ 
+}
+
+div#conteudo ul{
+    list-style: none;
+    
+      
+}
+.lbt{
+    margin-left:100px;
+    margin-top:-358px;
+    cursor: pointer;
+    
+}
+
+
+
+.lbtMessagem{
+    margin-left:100px;
+    margin-top: 0px;
+    cursor: pointer;
+    
+}
+
+.lbtInf{
+    margin-left:100px;
+    margin-top: 0px;
+    cursor: pointer;
+    
+}
+.lbtAdNota{
+
+     margin-left:100px;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+.lbt li{
+    margin-top: 20px;
+}
+
+.lbtMessagem li{
+    margin-top: 20px;
+}
+#ad{
+    margin-bottom: -440px;
+}
+
+#Inf{
+    margin-bottom: -350px;
+}
+
+#Messagem{
+    margin-bottom: -350px;
+}
+#AdNota{
+    margin-bottom: -180px;
+}
+.lbtInf li{
+    margin-top: 20px;
+}
+.lbtAdNota li{
+    margin-top: 20px;
+}
+.not{
+    border-left: 3px solid black;
+    height: 650px;
+    margin-left: 1060px;
+    margin-top:-500px;
+    margin-bottom: -231px;
+    
+}
+
+
+.principal{
+    border: 2px solid black;
+    height: 985px;
+     background: #dff4ff;
+}
+
+
+
+
+/*  MENU DOS BOTOES  */
+    .menu{
+        width: 100%;
+        height: 70px;
+        background:black;
+        
+    }
+    .menu ul{
+        list-style: none;
+        
+    }
+    .menu ul li{
+        
+        float: left;
+        margin: 1%;
+        margin-left: 3%;
+         
+        
+    }
+
+   button.bt1{
+       width: 160px;
+       padding: 10px; 
+       border-radius: 5px;
+       margin: 1%; 
+       cursor: pointer;
+       background:hsl(172, 88%, 35%);
+       color:white;
+       border: 3px solid rgb(25, 133, 100);
+       
+   }
+
+   button:hover{
+       background:hsl(172, 59%, 23%);
+   }
+
+   #hora{
+       color:lime;
+       margin-left:130px;
+       margin-top:-30px;
+   }
+    #data{
+       color:lime;
+       margin-top:-10px;
+       margin-left: 90px;
+       
+   }
+  
+    .terminar{
+        background:white;
+        text-align: right;
+        padding-right: 50px;
+        
+        
+    }
+    .terminar input{
+      cursor: pointer;
+    }
+
+    /* FORMULARIO DO GRAFICO  */
+
+    #form2 {
+    margin-left: 2%;
+    margin-top:-20px;
+    background: white;
+    border: 1px solid black;
+    width: 96%;
+    height: 680px;
+ 
+    
+}
+
+#myChart{
+    margin-bottom: -110px;
+}
+
+.linkLuanda{
+    margin-left: 1%;
+    font-size: 15px;
+    margin-right: 65px;
+    margin-top:-500px;
+    
+}
+
+/* FORMULARIO DO ALUNO    */
+
+.formAluno{
+    width: 720px;
+    height: 600px;
+    margin-left: 320px;
+    margin-top: 200px;
+    background: white;
+}
+
+.inputAluno{
+    width: 450px;
+    height: 50px;
+  background: #d7f0f1;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 20px;
+   
+}
+
+
+.inputAlunoB{
+    width: 317px;
+    height: 50px;
+   background: #d7f0f1;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 18px;
+   
+}
+
+.inputAlunoE{
+    width: 380px;
+    height: 50px;
+   background: #d7f0f1;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 18px;
+   
+}
+
+.inputAlunoEB{
+    width: 250px;
+    height: 50px;
+   background: #d7f0f1;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 18px;
+   
+}
+
+
+.inputAlunoN{
+    width: 80px;
+    height: 50px;
+  background: #d7f0f1;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 10px;
+    
+   
+}
+
+.inputAlunoN1{
+    width: 128px;
+    height: 30px;
+   background: #d7f0f1;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+   
+}
+
+.inputAlunoSelect{
+    width: 129px;
+    height: 30px;
+   background: #d7f0f1;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+   
+}
+.labCadastroAluno{
+    margin-top: 200px;
+    margin-left: 230px;
+    opacity: 0.6;
+    width: 1000px;
+    height: 50px;;
+
+    
+}
+
+.labCadastroAlun{
+   
+    opacity: 0.6;
+    width: 200px;
+    margin-left: 230px;
+   
+}
+
+
+
+.btFechar:hover{
+    background: none;
+    
+}
+.btCadastrar{
+    width: 300px;
+    margin: 30px;
+    padding: 15px;
+    margin-left:170px;
+    border-radius: 5px;
+    font-size:25px;
+    background: #4cb9c0;
+    color:white;
+    cursor: pointer;
+}
+.btCadastrar:hover{
+    background: #419ba1;
+    
+}
+
+.dadosEnc{
+    opacity: 0.7;
+    font-size:25px;
+    text-align: center;
+}
+
+.inputFinanca1{
+    width: 550px;
+    height: 50px;
+     background: #dff4ff;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 20px;
+    
+    
+   
+}
+
+.btPesq1{
+    width: 100px;
+    border-radius: 5px; 
+    cursor: pointer;
+    background:hsl(172, 88%, 35%);
+    color:white;
+    border: 3px solid rgb(25, 133, 100);
+    margin-top:10px;
+    margin-left:-15px;
+    margin-bottom:-15px;
+}
+
+.imgPesq1{
+    width: 40px;
+   
+}
+
+/* FORMULARIO DO PROFESSOR  */
+
+
+.formProfessor{
+    width: 720px;
+    height: 600px;
+  
+    margin-left: 300px;
+    margin-top: 200px;
+    background: white;
+}
+
+.inputProf{
+    width: 500px;
+    height: 50px;
+   background: #d7f0f1;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 20px;
+   
+}
+
+
+.inputNasc{
+    width: 130px;
+    height: 50px;
+   background: #c0eaff;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 18px;
+   
+}
+
+.inputTurma{
+    width: 120px;
+    height: 50px;
+   background: #d7f0f1;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 18px;
+   
+}
+
+.inputAlunoE{
+    width: 380px;
+    height: 50px;
+  background: #d7f0f1;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 18px;
+   
+}
+
+.inputProfBi{
+    width: 200px;
+    height: 50px;
+   background: #d7f0f1;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 18px;
+   
+}
+
+
+.inputAlunoN{
+    width: 80px;
+    height: 50px;
+  background: #d7f0f1;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 10px;
+    
+   
+}
+
+.inputAlunoN1{
+    width: 120px;
+    height: 30px;
+   background: #d7f0f1;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+   
+}
+.labCadastroAluno{
+    margin-top: -650px;
+    margin-left: 230px;
+    opacity: 0.6;
+    margin-bottom: 0px;
+   
+    width: 230px;
+    
+}
+.btFechar{
+    width: 70px;
+    height: 60px;
+    text-align: center;
+    font-size:30px;
+    color:red;
+    margin-left:650px;
+    margin-top:-80px;
+    border:none;
+    background:none;
+    cursor: pointer;
+    
+}
+
+.btFechar:hover{
+    background: none;
+    
+}
+.btCadastrar{
+    width: 300px;
+    margin: 30px;
+    padding: 15px;
+    margin-left:170px;
+    border-radius: 5px;
+    font-size:25px;
+    background: #4cb9c0;
+    color:white;
+    cursor: pointer;
+}
+.btCadastrar:hover{
+    background: #419ba1;
+    
+}
+
+
+/* FORMULARIO DA FINANCA  */
+
+
+.formFinanca{
+    width: 720px;
+    height: 590px;
+    background: white;
+    margin-left: 300px;
+    margin-top:-450px;
+    
+  
+}
+
+
+.inputFinanca{
+    width: 550px;
+    height: 50px;
+     background: #dff4ff;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.inputAdNota{
+    width: 650px;
+    height: 50px;
+     background: #dff4ff;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 400px;
+}
+
+.btPesq{
+    width: 100px;
+    border-radius: 5px; 
+    cursor: pointer;
+    background:hsl(172, 88%, 35%);
+    color:white;
+    border: 3px solid rgb(25, 133, 100);
+    margin-top:10px;
+    margin-left:-15px;
+    margin-bottom:-15px;
+}
+
+.btPesqAd{
+    width: 100px;
+    border-radius: 5px; 
+    cursor: pointer;
+    background:hsl(172, 88%, 35%);
+    color:white;
+    border: 3px solid rgb(25, 133, 100);
+    margin-top:10px;
+    margin-left:-15px;
+    margin-bottom:-15px;
+}
+
+.imgPesq{
+    width: 40px;
+   
+}
+.dados{
+    font-size: 20px;
+    
+}
+
+.inputmes{
+    width: 120px;
+    height: 30px;
+   background: #c0eaff;
+    margin: 10px;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 550px;
+    cursor: pointer;
+    
+   
+}
+
+
+/* FORMULARIO DO ANUNCIO  */
+
+
+.formAnuncio{
+    width: 720px;
+    height: 590px;
+    background: white;
+    margin-left: 300px;
+    margin-top:-450px;
+    
+  
+}
+.cor{
+    width:50px;
+}
+.inputcor{
+    width: 120px;
+    height: 30px;
+    background: #c0eaff;
+    border-bottom: 1px solid black;
+    font-size: 25px;
+    margin-left: 590px;
+    margin-top: -300px;
+    cursor: pointer;
+}
+pre{
+    margin-bottom: -25px;
+}
+
+.barra{
+    border: 3px solid black;
+    height: 40px;
+    background: rgb(25, 144, 223);
+    color: white;
+     
+}
+.file{
+    margin-top: 10px;
+    margin-left: 40px;
+    width: 150px;
+    
+        
+}
+
+/* FORMULARIO DAS ALTERACOES */
+
+.busca input{
+    background: white;
+    
+}
+.busca select{
+    background: white;
+}
+.busca .btCadastrar{
+    background: #4cb9c0;
+    padding: 10px;
+    margin-top:  0px;
+}
+
+/* FORMULARIO INFORMACAO ALUNO */
+
+.formInfAluno{
+    width: 720px;
+    height: 590px;
+    background: white;
+    margin-left: 300px;
+    margin-top:-350px;
+    
+  
+}
+
+.imgInfAluno{
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgb(57, 114, 201);
+    margin-left: 800px;
+    margin-top: -1000px;
+    background:hsl(172, 59%, 23%)
+}
+
+.preInf{
+    margin-bottom: -300px;
+}
+
+
+
+/* FORMULARIO INFORMACAO PROFESSOR */
+
+.formInfProf{
+    width: 720px;
+    height: 590px;
+    background: white;
+    margin-left: 300px;
+    margin-top:-350px;
+    
+  
+}
+
+.imgInfProf{
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgb(57, 114, 201);
+    margin-left: 800px;
+    margin-top: -1500px;
+    background:hsl(172, 59%, 23%)
+}
+
+.preInfP{
+    margin-bottom: -300px;
+}
+
+
+/* FORMULARIO INFORMACAO DAS TURMAS */
+
+.formInfTurma{
+    width: 1220px;
+    height: 650px;
+    background: white;
+    margin-left: 300px;
+    margin-top:-380px;
+    
+  
+}
+
+.formInfFinanca{
+    width: 1220px;
+    height: 650px;
+    background: white;
+    margin-left: 300px;
+    margin-top:-380px;
+    
+  
+}
+
+.linkLuanda1{
+    margin-left: 1%;
+    font-size: 15px;
+    margin-right: 65px;
+    margin-top: 0px;
+    
+}
+
+#myChart1{
+    margin-bottom: -30px;
+}
+
+.imgInfProf{
+    width: 400px;
+    height: 300px;
+    border: 3px solid rgb(57, 114, 201);
+    margin-left: 800px;
+    margin-top: -1500px;
+    background:hsl(172, 59%, 23%)
+}
+
+.preInfP{
+    margin-bottom: -300px;
+}
+.divInf{
+    background: #34c2ba;
+    width: 1220px;
+    height: 40px;
+    margin-top:-20px;
+    
+}
+
+.divAdNota{
+    background: #34c2ba;
+    width: 1540px;
+    height: 40px;
+    margin-top:-20px;
+    
+}
+
+.divAdNota select{
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+    background: #63e9e1;
+    
+}
+.divInf select{
+    width: 150px;
+    padding: 5px;
+    cursor: pointer;
+    background: #63e9e1;
+    
+}
+.Pesquisar{
+    margin-left: 1010px;
+    width: 200px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: -22px;
+    color: white;
+    background: #0087b9;
+    border: 2px solid #99f2fc;
+}
+
+.PesquisarAdNota{
+    margin-left: 1310px;
+    width: 200px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: -22px;
+    color: white;
+    background: #0087b9;
+    border: 2px solid #99f2fc;
+}
+.Pesquisar:hover{
+    background: #0b6c78;
+}
+ #thNum{
+   
+    width: 30px;
+}
+
+ #thNom{
+   
+    width: 400px;
+}
+#thD{
+    width: 200px;
+}
+th{
+    background: black;
+    color:white;
+    height: 30px;
+}
+
+ #n{
+    color: black;
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+    color: blue;
+}
+
+
+
+.formAdNota{
+    width: 1540px;
+    height: 650px;
+    background: white;
+    margin-left: 5px;
+    margin-top: -30px;
+    
+  
+}
